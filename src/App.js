@@ -1,9 +1,15 @@
 import './App.css';
+import TopBar from './components/TopBar';
+import BgCard from './components/bg';
+import Listing from './components/Listing';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar/>
+      <BgCard/>
+      <Listing/>
     </div>
   );
 }
