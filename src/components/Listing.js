@@ -18,7 +18,7 @@ const Listing = () => {
                         <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
                         <p>Delivery * Pickup</p>
                     </Col>
-                    <Col >
+                    <Col xs={6}>
                         <Col >
                             <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }} src="https://d2d8wwwkmhfcva.cloudfront.net/96x96/d2lnr5mha7bycj.cloudfront.net/warehouse/logo/279/0d43b5d2-9d07-4a30-a0ee-0e16d5922411.png" roundedCircle />
                         </Col>
@@ -41,7 +41,7 @@ const Listing = () => {
                         <h5 style={{ fontWeight: "bold" }}>ShopRite</h5>
                         <p>Delivery * Pickup</p>
                     </Col>
-                    <Col >
+                    <Col xs={6}>
                         <Col >
                             <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }} src="https://www.instacart.com/image-server/58x58/filters:fill(FFF,true):format(webp)/www.instacart.com/assets/domains/warehouse/logo/5/65f2304b-908e-4cd0-981d-0d4e4effa8de.png" roundedCircle />
                         </Col>
